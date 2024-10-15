@@ -29,9 +29,15 @@
                          <img src="img/X.svg" alt="" class="img-fluid" id="closeBtn">
                     </div>
                     <div class="links">
-                         <h1 class="bold-font mt-5 navLink">HOME</h1>
-                         <h1 class="bold-font mt-4 navLink">ABOUT</h1>
-                         <h1 class="bold-font mt-4 navLink">SHOWCASE</h1>
+                         <a href="#home" class="text-decoration-none">
+                              <h1 class="bold-font mt-5 navLink">HOME</h1>
+                         </a>
+                         <a href="#about" class="text-decoration-none">
+                              <h1 class="bold-font mt-4 navLink">ABOUT</h1>
+                         </a>
+                         <a href="#showcase" class="text-decoration-none">
+                              <h1 class="bold-font mt-4 navLink">SHOWCASE</h1>
+                         </a>
                          <h1 class="bold-font mt-4 navLink">AGENDA</h1>
                     </div>
                     <div class="social-media mt-5">
@@ -63,7 +69,7 @@
           </div>
      </header>
      <main class="pt-3 position-relative h-100">
-          <div class="h-100">
+          <div class="h-100" id="home">
                <div class="position-fixed w-100 z">
                     <div class="row px-5 justify-content-between mx-0 position-relative">
                          <div class="burger d-flex flex-column justify-content-center" id="burgerMenu">
@@ -84,11 +90,11 @@
                                    2<br><br>0
                               </h1>
                          </div>
-                         <div class="col-10">
+                         <div class="col-10 d-flex justify-content-center">
                               <img src="img/logos/outline of logo.png" alt="" class="img-fluid">
                          </div>
                          <div class="col-1">
-                              <h1 class="scream nums2 d-flex justify-content-end">
+                              <h1 class="scream nums2 d-flex justify-content-start">
                                    2<br><br>4
                               </h1>
                          </div>
@@ -101,7 +107,7 @@
                     </div>
                </div>
           </div>
-          <div class="p-5 about">
+          <div class="p-5 about h-100" id="about">
                <div class="row m-0 h-100">
                     <div class="col-1"></div>
                     <div class="col-12 col-md-4 d-flex flex-column justify-content-center">
@@ -141,6 +147,72 @@
                          <button class="moreInfoBtn scream mt-3">More Info</button>
                     </div>
                     <div class="col-1"></div>
+               </div>
+          </div>
+          <div class="p-5 showcase" id="showcase">
+               <h1 class="scream text-start mt-5 whiteOutline">Trunk Showcase</h1>
+               <div id="cardsContainer">
+                    <div class="row justify-content-center mt-5">
+                         <div class="col-12 col-md-3">
+                              <img src="img/showcase/IMG_8439.jpg" class='img-fluid border border-2 showcaseImage'>
+                              <p class="paralucent text-white mt-2 showcaseDescription">
+                                   Students made a star wars themed trunk, dressed as Dath Vader, Yoda, and Luke
+                                   Skywalker.
+                              </p>
+                         </div>
+                         <div class="col-12 col-md-3">
+                              <img src="img/showcase/IMG_8442.jpg" class='img-fluid border border-2 showcaseImage'>
+                              <p class="paralucent text-white mt-2 showcaseDescription">
+                                   Students made a Super Mario themed trunk, dressed as Mario and Luigi.
+                              </p>
+                         </div>
+                         <div class="col-12 col-md-3">
+                              <img src="img/showcase/IMG_8459.jpg" class='img-fluid border border-2 showcaseImage'>
+                              <p class="paralucent text-white mt-2 showcaseDescription">
+                                   Students made a Harry Potter themed trunk, dressed as Harry Potter and Hermione.
+                              </p>
+                         </div>
+                    </div>
+                    <div class="row justify-content-center mt-5">
+                         <div class="col-12 col-md-3">
+                              <img src="img/showcase/IMG_8469(1).jpg" class='img-fluid border border-2 showcaseImage'>
+                              <p class="paralucent text-white mt-2 showcaseDescription">
+                                   Students made a star wars themed trunk, dressed as Dath Vader, Yoda, and Luke
+                                   Skywalker.
+                              </p>
+                         </div>
+                         <div class="col-12 col-md-3">
+                              <img src="img/showcase/IMG_9107.jpg" class='img-fluid border border-2 showcaseImage'>
+                              <p class="paralucent text-white mt-2 showcaseDescription">
+                                   Students dressed up in inflatable dinosaur costumes and had a ancient jungle themed
+                                   trunk.
+                              </p>
+                         </div>
+                         <div class="col-12 col-md-3">
+                              <img src="img/showcase/IMG_9113.jpg" class='img-fluid border border-2 showcaseImage'>
+                              <p class="paralucent text-white mt-2 showcaseDescription">
+                                   Students dressed up as Buzz and Woody from Toy Story with a small game to play.
+                              </p>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="p-5 agenda" id="agenda">
+               <h1 class="scream text-end mt-5 whiteOutline">agenda at a glance</h1>
+               <div class="row justify-content-center mt-5">
+                    <div class="col-12 col-md-3">
+                         <div class="scheduleTile p-5">
+                              <h1 class="text-white text-center scream">Setup Time For Participants</h1>
+                              <h3 class="text-white text-center mt-5 bold-font">3:00 PM</h3>
+                         </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                         <div class="scheduleTile p-5">
+                              <h1 class="text-white text-center scream">Event Time</h1>
+                              <h3 class="text-white text-center mt-5 bold-font">4:00 PM - 5:30 PM</h3>
+                         </div>
+                    </div>
+                    <div class="col-12 col-md-3"></div>
                </div>
           </div>
      </main>

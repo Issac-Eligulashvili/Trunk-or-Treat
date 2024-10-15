@@ -3,7 +3,9 @@ hmtl {
      background: black;
 }
 
-
+html {
+     scroll-behavior: auto !important;
+}
 
 /* fonts */
 @font-face {
@@ -157,6 +159,10 @@ hmtl {
      background: var(--red);
 }
 
+.agenda {
+     background: var(--red);
+}
+
 .whiteOutline {
      -webkit-text-stroke-width: 1px;
      -webkit-text-stroke-color: #FFF;
@@ -183,4 +189,8 @@ hmtl {
 
 .moreInfoBtn:active {
      opacity: 0.85;
+}
+
+.scheduleTile {
+     background-color: #750808;
 }
