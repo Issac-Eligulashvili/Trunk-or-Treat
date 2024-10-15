@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="w-100 h-100">
 
 <head>
      <title>Trunk or Treat!</title>
@@ -10,13 +10,140 @@
      <!-- Bootstrap CSS v5.2.1 -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+     <!-- ADOBE FONTS -->
+     <link rel="stylesheet" href="https://use.typekit.net/fid7pxh.css">
+
+
+     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="w-100 h-100">
      <header>
-          <!-- place navbar here -->
+          <div class="custom-nav position-fixed">
+               <div class="row px-5 mt-5 justify-content-between align-items-center">
+                    <div class="col-3 col-sm-2 col-md-1">
+                         <img src="img/mustang logo.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-3 col-sm-2 col-md-1">
+                         <img src="img/X.svg" alt="" class="img-fluid" id="closeBtn">
+                    </div>
+                    <div class="links">
+                         <h1 class="bold-font mt-5 navLink">HOME</h1>
+                         <h1 class="bold-font mt-4 navLink">ABOUT</h1>
+                         <h1 class="bold-font mt-4 navLink">SHOWCASE</h1>
+                         <h1 class="bold-font mt-4 navLink">AGENDA</h1>
+                    </div>
+                    <div class="social-media mt-5">
+                         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"
+                              class="socialMediaLink">
+                              <path d="M36 4H30C27.3478 4 24.8043 5.05357 22.9289 6.92893C21.0536 8.8043 20 11.3478 20 14V20H14V28H20V44H28V28H34L36 20H28V14C28 13.4696 28.2107 12.9609 28.5858 12.5858C28.9609 12.2107 29.4696 12 30 12H36V4Z"
+                                   stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                         </svg>
+                         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"
+                              class="socialMediaLink">
+                              <path d="M35 13H35.02M14 4H34C39.5228 4 44 8.47715 44 14V34C44 39.5228 39.5228 44 34 44H14C8.47715 44 4 39.5228 4 34V14C4 8.47715 8.47715 4 14 4ZM32 22.74C32.2468 24.4045 31.9625 26.1044 31.1875 27.598C30.4125 29.0916 29.1863 30.3028 27.6833 31.0593C26.1802 31.8159 24.4769 32.0792 22.8156 31.8119C21.1543 31.5445 19.6195 30.7602 18.4297 29.5703C17.2398 28.3805 16.4555 26.8457 16.1881 25.1844C15.9208 23.5231 16.1841 21.8198 16.9407 20.3167C17.6972 18.8137 18.9084 17.5875 20.402 16.8125C21.8956 16.0375 23.5955 15.7532 25.26 16C26.9578 16.2518 28.5297 17.0429 29.7434 18.2566C30.9571 19.4703 31.7482 21.0422 32 22.74Z"
+                                   stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                         </svg>
+                         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"
+                              class="socialMediaLink">
+                              <g clip-path="url(#clip0_35_143)">
+                                   <path d="M28.5712 20.327L46.4432 0H42.2096L26.6848 17.646L14.2944 0H0L18.7408 26.6865L0 47.9998H4.2336L20.6176 29.361L33.7056 47.9998H48M5.7616 3.12379H12.2656L42.2064 45.0295H35.7008"
+                                        fill="white" class="x-logo" />
+                              </g>
+                              <defs>
+                                   <clipPath id="clip0_35_143">
+                                        <rect width="48" height="48" fill="white" />
+                                   </clipPath>
+                              </defs>
+                         </svg>
+                    </div>
+               </div>
+
+          </div>
      </header>
-     <main></main>
+     <main class="pt-3 position-relative h-100">
+          <div class="h-100">
+               <div class="position-fixed w-100 z">
+                    <div class="row px-5 justify-content-between mx-0 position-relative">
+                         <div class="burger d-flex flex-column justify-content-center" id="burgerMenu">
+                              <div class="line-1"></div>
+                              <div class="line-2"></div>
+                         </div>
+                         <img src="img/mustang logo.png" alt="" class="mustang-logo">
+                         <div class="burgerFacade d-flex flex-column justify-content-center">
+                              <div class="line-1"></div>
+                              <div class="line-2"></div>
+                         </div>
+                    </div>
+               </div>
+               <div class="landingPage">
+                    <div class="row m-0 align-items-center">
+                         <div class="col-1">
+                              <h1 class="scream nums1 d-flex justify-content-end">
+                                   2<br><br>0
+                              </h1>
+                         </div>
+                         <div class="col-10">
+                              <img src="img/logos/outline of logo.png" alt="" class="img-fluid">
+                         </div>
+                         <div class="col-1">
+                              <h1 class="scream nums2 d-flex justify-content-end">
+                                   2<br><br>4
+                              </h1>
+                         </div>
+                         <div class="col-12 text-center mt-4 mb-0">
+                              <h1 class="scream text-white">October 29, 2024</h1>
+                         </div>
+                         <div class="col-12 text-center">
+                              <p class="scream text-white">4:00 - 5:30</p>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="p-5 about">
+               <div class="row m-0 h-100">
+                    <div class="col-1"></div>
+                    <div class="col-12 col-md-4 d-flex flex-column justify-content-center">
+                         <div id="carouselExample" class="carousel slide border border-black border-3">
+                              <div class="carousel-inner">
+                                   <div class="carousel-item active">
+                                        <img src="img/carousel/IMG_0470.jpg" class="d-block w-100" alt="...">
+                                   </div>
+                                   <div class="carousel-item">
+                                        <img src="img/carousel/IMG_2945.jpg" class="d-block w-100" alt="...">
+                                   </div>
+                                   <div class="carousel-item">
+                                        <img src="img/carousel/IMG_8463.jpg" class="d-block w-100" alt="...">
+                                   </div>
+                              </div>
+                              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                                   data-bs-slide="prev">
+                                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                   <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                                   data-bs-slide="next">
+                                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                   <span class="visually-hidden">Next</span>
+                              </button>
+                         </div>
+                    </div>
+                    <div class="col-12 col-md-6 justify-content-center d-flex align-items-center flex-column ">
+                         <h1 class="scream text-center mt-5 whiteOutline">ENGAGE IN SCHOOL <span
+                                   class="blackOutline">COMMUNITY</span> SPIRIT</h1>
+                         <div id="subtext" class="text-white my-3 paralucent">
+                              Students decorate the trunks of their cars with spooky, creative themes. Kids can walk
+                              from car to car, collect candy, and enjoy a safe trick-or-treating experience. There are
+                              often activities, games, and costumes, making it a great way for the school community to
+                              come together and celebrate the holiday.
+                         </div>
+                         <button class="moreInfoBtn scream mt-3">More Info</button>
+                    </div>
+                    <div class="col-1"></div>
+               </div>
+          </div>
+     </main>
      <footer>
           <!-- place footer here -->
      </footer>
