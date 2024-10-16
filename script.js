@@ -1,6 +1,6 @@
 $(document).ready(function () {
      $('.custom-nav').hide();
-     $('#subtext').hide();
+     $('.subtext').hide();
      $('.showcaseDescription').hide();
 
      $('#burgerMenu').on('click', () => {
@@ -14,7 +14,7 @@ $(document).ready(function () {
      })
 
      $('.moreInfoBtn').on('click', (event) => {
-          $(event.target).closest('.subtext').toggle(50);
+          $(event.target).prev().toggle(50);
      })
 
      $('.showcaseImage').on('mouseenter', (event) => {
