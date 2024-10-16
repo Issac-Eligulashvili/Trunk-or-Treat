@@ -13,8 +13,8 @@ $(document).ready(function () {
           $('body').removeClass('overflow-hidden');
      })
 
-     $('.moreInfoBtn').on('click', () => {
-          $('#subtext').toggle(50);
+     $('.moreInfoBtn').on('click', (event) => {
+          $(event.target).closest('.subtext').toggle(50);
      })
 
      $('.showcaseImage').on('mouseenter', (event) => {
